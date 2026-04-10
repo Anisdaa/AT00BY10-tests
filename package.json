@@ -1,0 +1,16 @@
+{
+  "name": "at00by10-tests",
+  "version": "1.0.0",
+  "description": "Unit tests and CI for AT00BY10 library",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.4",
+    "vitest": "^3.2.4"
+  }
+}
